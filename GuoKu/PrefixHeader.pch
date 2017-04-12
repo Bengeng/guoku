@@ -1,0 +1,37 @@
+//
+// Prefix header for all source files of the 'GuoKu' target in the 'GuoKu' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define SCREEN_WIDTH             [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT            [UIScreen mainScreen].bounds.size.height
+#define BACK_COLOR               [UIColor colorWithRed:206.0/225 green:10.0/225 blue:134.0/225 alpha:1]
+#define LIGHT_BACK_COLOR         [UIColor colorWithRed:206.0/225 green:10.0/225 blue:134.0/225 alpha:0.1]
+
+#define SMALL_SCROLLVIEW_HEIGHT  44
+#define EVERY_TITLE_WIDTH        44.f
+#define SELF_WIDTH               self.bounds.size.width
+#define SELF_HEIGHT              self.bounds.size.height
+
+#define NSHOMEDIRECTORY          [NSHomeDirectory() stringByAppendingPathComponent:@"Documents"]
+#define CURRENTIMAGE             @"currentImage.png"
+#define CURRENTNICKNAME          @"nickName.txt"
+#define CURRENTSEX               @"sex.txt"
+#define CURRENTADDRESS           @"address.txt"
+#define CURRENTINTRODUCE         @"introduce.txt"
+#define CURRENTLIKECOUNT         @"likecount.txt"
+#endif 
+

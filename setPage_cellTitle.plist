@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>cell_title</key>
+		<string>邮箱</string>
+	</dict>
+	<dict>
+		<key>cell_title</key>
+		<string>密码</string>
+	</dict>
+	<dict>
+		<key>cell_title</key>
+		<string>微信分享</string>
+	</dict>
+	<dict>
+		<key>cell_title</key>
+		<string>分享应用到微博</string>
+	</dict>
+	<dict>
+		<key>cell_title</key>
+		<string>App Store 评分</string>
+	</dict>
+	<dict>
+		<key>cell_title</key>
+		<string>清除图片缓存</string>
+	</dict>
+	<dict>
+		<key>cell_title</key>
+		<string>意见反馈</string>
+	</dict>
+	<dict>
+		<key>cell_title</key>
+		<string>退出登陆</string>
+	</dict>
+</array>
+</plist>
